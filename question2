@@ -1,0 +1,13 @@
+,date,category,employee id,expense description,pre-tax amount,tax name,tax amount,business or personal
+0,11/10/2016,Travel,7,Taxi ride,30.0,NY Sales tax,2.66,personal
+1,11/12/2016,Meals and Entertainment,1,Dinner with Family,235.0,CA Sales tax,30.55,business
+2,9/2/2016,Computer - Hardware,4,Macbook Air Computer,4000.0,CA Sales tax,520.0,personal
+3,9/2/2016,Office Supplies,4,Paper,20.0,CA Sales tax,2.6,personal
+4,9/2/2016,Office Supplies,4,Pens,20.0,CA Sales tax,2.6,personal
+5,11/21/2016,Travel,1,Airplane ticket to Miami,200.0,CA Sales tax,26.0,personal
+6,12/4/2016,Meals and Entertainment,2,Starbucks coffee,12.0,CA Sales tax,1.56,business
+7,1/18/2010,Meals and Entertainment,6,Dinner,30.0,CA Sales tax,3.9,business
+8,10/5/2016,Meals and Entertainment,4,Dinner with client,220.0,CA Sales tax,28.6,business
+9,12/2/2016,Meals and Entertainment,4,Dinner,180.0,CA Sales tax,23.4,business
+10,2/14/2017,Meals and Entertainment,4,Dinner,500.0,CA Sales tax,65.0,business
+11,2/14/2016,Meals and Entertainment,4,Dinner,600.0,CA Sales tax,78.0,business

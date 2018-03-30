@@ -44,8 +44,30 @@ There are many ways and algorithms to solve these questions; we ask that you app
 Please modify `README.md` to add:
 
 1. Instructions on how to run your application
+	There are four .py files in total. Just run the 'file_parser.py'
 1. A paragraph or two about what what algorithm was chosen for which problem, why (including pros/cons) and what you are particularly proud of in your implementation, and why
+	(a). As for the question 1, since we know both the data and the labels and this is typical supervised-learning problem. I used a simple KNN algorithm and it is suitable for the data with less quantity.
+
+	(b). For question 2. There are no lables anymore and we need to find the potential labels (unsupervised). Therefore, I used K-clustering algorithm to iteratively find solutions.
+	
+	(c). Before applying the algorithms, I preprocessed the data. First, I removed some features which are redundant and repeated ('date','tax name','tax amount'). Then, I turned the feature 'expense description' into a one-hot type, which is a common way to process the 'string' data. Finally, I normalied them into 0 to 1, because I think the rest features are equally important.
+	
+	(d). It may take more time for me to install Spark. Hence, I will hand in what I have now. I will try to install Spark ang run my code in Spark.
 1. Overall performance of your algorithm(s)
+	(a). For Q1, since I used KNN. The accuracy of training data is 100%. 83% for the validation data.
+	(b). After applying K-cluster, the validation data's new column is:
+	['personal',
+ 	 'business',
+	 'personal',
+	 'personal',
+	 'personal',
+	 'personal',
+	 'business',
+	 'business',
+	 'business',
+	 'business',
+	 'business',
+	 'business']
 
 ## Submission Instructions
 
